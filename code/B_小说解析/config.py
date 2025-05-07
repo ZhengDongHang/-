@@ -1,0 +1,1 @@
+API_KEY = 'sk-XXX' # 替换为你自己的API密钥（Deepseek官网获取）

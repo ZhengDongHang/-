@@ -1,0 +1,10 @@
+1. Chinese_Multi-Emotion_Dialogue_Dataset
+来源：日常对话、电影对白和 AI 生成对话。
+
+规模：共 4159 条对话。
+
+情绪标签：共 8 类，包括开心、伤心、愤怒、惊讶、恐惧、厌恶、疑问和平淡。
+
+格式：CSV 格式，包含 text（对话内容）和 emotion（情绪标签）字段。
+
+github : Johnson8187/Chinese_Multi-Emotion_Dialogue_Dataset
