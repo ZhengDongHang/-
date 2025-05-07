@@ -1,0 +1,13 @@
+requests
+beautifulsoup4
+selenium
+pandas
+numpy
+torch
+transformers
+scikit-learn
+joblib
+opencc-python-reimplemented
+python-docx
+tqdm
+openai
