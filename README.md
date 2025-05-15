@@ -1,7 +1,7 @@
 # 小说剧本转换器——基于LLM实现
 笔者开发一种主要基于LLM（Deepseek API）的转换器（小说转剧本），辅助BERT情绪分析，Seq2Seq动作分析，以及历史背景获取，
 成功开发一款很好的小说转剧本生成器；  
-笔者与协助者从数据爬取，到模型转换生成，再到最后的剧本生成word，一体化流程。  
+笔者与协助者从数据爬取，到模型转换生成，再到最后的剧本生成word，TTS转化，一体化流程。  
 
 CSDN链接：https://blog.csdn.net/2301_77491330/article/details/147777317?fromshare=blogdetail&sharetype=blogdetail&sharerId=147777317&sharerefer=PC&sharesource=2301_77491330&sharefrom=from_link
 
@@ -50,6 +50,10 @@ CSDN链接：https://blog.csdn.net/2301_77491330/article/details/147777317?froms
 │   │   ├── 剧本输出.docx         # 生成的剧本文档
 │   │   ├── 评估结果.csv          # 模型评估的结果数据
 │   │   └── 对比剧本/             # 各版本生成剧本对比示例
+│
+│   │── D_有声剧本转化/           # 使用TTS接口进行有声书转化 
+│   │   ├── TTS.py                # 将Word剧本转为音频并播放
+│   │   ├── temp_audio            # 存储音频处
 │
 │   └── U_工具库/                 # 工具函数与数据预处理
 │       ├── 动作数据集生成.py     # 用于创建动作识别训练数据
