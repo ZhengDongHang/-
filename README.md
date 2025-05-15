@@ -53,7 +53,7 @@ CSDN链接：https://blog.csdn.net/2301_77491330/article/details/147777317?froms
 │
 │   │── D_有声剧本转化/           # 使用TTS接口进行有声书转化 
 │   │   ├── TTS.py                # 将Word剧本转为音频并播放
-│   │   ├── temp_audio            # 存储音频处
+│   │   ├── temp_audio/           # 存储音频处
 │
 │   └── U_工具库/                 # 工具函数与数据预处理
 │       ├── 动作数据集生成.py     # 用于创建动作识别训练数据
