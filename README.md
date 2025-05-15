@@ -3,7 +3,7 @@
 成功开发一款很好的小说转剧本生成器；  
 笔者与协助者从数据爬取，到模型转换生成，再到最后的剧本生成word，TTS转化，一体化流程。  
 
-CSDN链接：https://blog.csdn.net/2301_77491330/article/details/147777317?fromshare=blogdetail&sharetype=blogdetail&sharerId=147777317&sharerefer=PC&sharesource=2301_77491330&sharefrom=from_link
+CSDN链接：https://blog.csdn.net/2301_77491330/article/details/147959331?fromshare=blogdetail&sharetype=blogdetail&sharerId=147959331&sharerefer=PC&sharesource=2301_77491330&sharefrom=from_link
 
 <p align="center">
   <img src="charts/技术流程图.png" alt="our work" width="600"/>
